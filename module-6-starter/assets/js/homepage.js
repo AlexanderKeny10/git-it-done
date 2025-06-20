@@ -2,7 +2,7 @@ var userFormEl = document.querySelector("#user-form");
 var nameInputEl = document.querySelector("#username");
 var repoContainerEl = document.querySelector("#repos-container");
 var repoSearchTerm = document.querySelector("#repo-search-term");
-var languageButtonEl = document.querySelector("#language-buttons");
+var languageButtonsEl = document.querySelector("#language-buttons");
 
 
 var formSubmitHandler = function(event) {
@@ -110,7 +110,7 @@ var getUserRepos = function(user) {
           }
     }
 
-    buttonClickHandler()
+    // buttonClickHandler()
 
   userFormEl.addEventListener("submit", formSubmitHandler);
 
